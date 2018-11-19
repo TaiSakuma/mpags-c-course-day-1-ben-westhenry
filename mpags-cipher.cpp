@@ -4,46 +4,7 @@
 int main(int argc, char* argv[])
 
 {
-	//This is a comment
-	/* This is a
-	multiline comment */
 
-  //1st set of exercises
-
-	std::cout << "Hello World!\n";
-	int a{1};
-	double b{3.4};
-      	int c{static_cast<int>(b)};
-
-	std::cout << "a =" << a << std::endl;
-      	std::cout << b << std::endl;
-       	std::cout << c << std::endl; 
-
-	const double d{3.6};
-	const int f{2};
-	//	f = 3;
-
-
-	std::string msg {"Ben"};
-	std::cout <<msg[2] << "\n";
-	std::cout << "d =" << d << std::endl;
-       
-	const double times{a*b};
-
-	std::cout << "times =" << times << std::endl;
-	std::cout << "mult" << a*b << std::endl;
-	std::cout << "div =" << d/f << std::endl;
-
-	std::cout << "div int =" << f/a << std::endl;
-
-	std::string msg2{"new_string"};
-	
-	const char ch{msg2[3]};
-
-	std::cout << "ch=" << ch << std::endl;
-
-
-	//3rd set of exercises 
 	const std::vector<std::string> cmdLineArgs{ argv, argv + argc};
 
 	std::string input_f{""};
