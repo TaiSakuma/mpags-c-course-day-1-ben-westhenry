@@ -63,50 +63,27 @@ int main(int argc, char* argv[])
 	    switch(in_char)
 	      {
 	      case '1':
-		value += 'O';
-		value += 'N';
-		value += 'E';
-
+		value += "ONE";
 		break;
 
 	      case '2':
-		value += 'T';
-		value += 'W';
-		value += 'O';
-
+		value += "TWO";
 		break;
 
 	      case '3':
-		value += 'T';
-		value += 'H';
-		value += 'R';
-		value += 'E';
-		value += 'E';
-
+		value += "THREE";
 		break;
 
-
 	      case '4':
-		value += 'F';
-		value += 'O';
-		value += 'U';
-		value += 'R';
-
+		value += "FOUR";
 		break;
 
 	      case '5':
-		value += 'F';
-		value += 'I';
-		value += 'V';
-		value += 'E';
-
+		value += "FIVE";
 		break;
 
 	      case '6':
-		value += 'S';
-		value += 'I';
-		value += 'X';
-
+		value += "SIX";
 		break ;
 
 	      case '7':
